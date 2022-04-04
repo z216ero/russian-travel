@@ -1,0 +1,10 @@
+.lead__title_place_content {
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+@media all and (max-width: 320px) {
+  .lead__title_place_content {
+    margin-bottom: 16px;
+  }
+}

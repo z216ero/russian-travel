@@ -1,0 +1,21 @@
+.header_place_page {
+  margin: 0 48px 56px;
+}
+
+@media all and (max-width: 1024px) {
+  .header_place_page {
+    margin: 0 48px 48px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .header_place_page {
+    margin: 0 24px 48px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .header_place_page {
+    margin: 0 16px 48px;
+  }
+}

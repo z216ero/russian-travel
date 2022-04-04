@@ -1,0 +1,32 @@
+.lead__caption_place_content {
+}
+
+@media all and (min-width: 1025px) {
+  .lead__caption_place_content {
+    margin-left: 0px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .lead__caption_place_content {
+    margin-left: calc((100% - 928px) / 2);
+  }
+}
+
+@media all and (max-width: 928px) {
+  .lead__caption_place_content {
+    margin-left: calc((100% - 768px) / 2);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .lead__caption_place_content {
+    margin-left: 24px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__caption_place_content {
+    margin-left: 10px;
+  }
+}

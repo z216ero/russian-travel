@@ -1,0 +1,6 @@
+.photo-grid {
+  display: grid;
+  grid-auto-rows: repeat(minmax(min-content, max-content));
+
+  gap: 16px;
+}

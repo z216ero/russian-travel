@@ -1,0 +1,16 @@
+.lead__subtitle_place_content {
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+@media all and (max-width: 1024px) {
+  .lead__subtitle_place_content {
+    margin-bottom: 56px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__subtitle_place_content {
+    margin-bottom: 40px;
+  }
+}
