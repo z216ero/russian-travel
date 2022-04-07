@@ -1,8 +1,11 @@
-# how-to-learn
+# Name
 How to learn
 
-# Description
-тестовый макет по верствке
+## Description
+*адапативная верстка по макету*
 
-# stacks
-html,css
+## stacks
+**html,css(grid,flex)**
+
+## ССылка на проект
+[Ссылка](https://z216ero.github.io/russian-travel/) 
