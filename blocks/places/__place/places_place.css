@@ -1,0 +1,40 @@
+.places_place {
+  max-width: 984px;
+  width: 100%;
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: 460px auto;
+  column-gap: 40px;
+  grid-row-gap: 48px;
+}
+
+@media (max-width: 1279px) {
+  .places_place {
+    max-width: 928px;
+    grid-template-columns: 440px auto;
+    column-gap: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .places_place {
+    max-width: 720px;
+    grid-template-columns: 340px auto;
+    column-gap: 28px;
+    margin: 0 auto 73px;
+  }
+}
+
+@media (max-width: 767px) {
+  .places_place {
+    max-width: 320px;
+    grid-template-columns: 320px;
+    column-gap: 0;
+    grid-row-gap: 32px;
+    margin: 0 auto 50px;
+  }
+}
+
+.places_place:last-child {
+  margin-bottom: 0;
+}

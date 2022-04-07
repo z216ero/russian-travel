@@ -5,7 +5,11 @@
   max-width: 1280px;
   margin: 0 auto;
   font-family: "Inter", "Arial", sans-serif;
+}
+
+body {
   background-color: #2a2c2f;
+  text-rendering: optimizeLegibility;
 }
 
 @media all and (max-width: 320px) {

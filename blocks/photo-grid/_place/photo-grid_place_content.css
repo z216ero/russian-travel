@@ -1,0 +1,15 @@
+.photo-grid_place_content {
+  margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+  .photo-grid_place_content {
+    margin: 0 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-grid_place_content {
+    margin: 0 16px;
+  }
+}

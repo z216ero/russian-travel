@@ -1,0 +1,10 @@
+.places__link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.places__link:visited {
+  color: #fff;
+}
