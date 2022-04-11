@@ -1,4 +1,4 @@
-.page {
+.root {
   padding-top: 28px;
   position: relative;
   min-width: 320px;
@@ -7,7 +7,7 @@
   font-family: "Inter", "Arial", sans-serif;
 }
 
-body {
+.body {
   background-color: #2a2c2f;
   text-rendering: optimizeLegibility;
 }

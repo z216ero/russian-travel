@@ -1,7 +1,7 @@
 .cover {
   max-width: 1184px;
   min-width: 320px;
-  height: 740px;
+  min-height: 740px;
   margin: 92px auto 0;
   width: 100%;
 }
@@ -9,14 +9,14 @@
 @media screen and (max-width: 1279px) {
   .cover {
     width: 1024px;
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
     width: 768px;
-    height: 480px;
+    min-height: 480px;
     margin: 90px auto 0;
   }
 }
@@ -24,7 +24,7 @@
 @media screen and (max-width: 767px) {
   .cover {
     width: 320px;
-    height: 200px;
+    min-height: 200px;
     margin: 66px auto 0;
   }
 }

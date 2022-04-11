@@ -3,10 +3,12 @@
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
+  margin: 0;
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 14px;
+    margin-top: 48px;
   }
 }

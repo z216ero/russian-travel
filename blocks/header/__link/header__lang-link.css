@@ -3,10 +3,13 @@
   text-decoration: none;
   font-style: 24px;
   line-height: 28px;
+  font-weight: 400;
+  
 }
 
 @media all and (max-width: 320px) {
   .header__lang-link {
-    font-style: 24px;
+    font-style: 18px;
+    line-height: 20px;
   }
 }
