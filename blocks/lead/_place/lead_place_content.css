@@ -1,6 +1,13 @@
 .lead_place_content {
   margin: 0 auto;
   margin-bottom: 92px;
+  margin-top: 56px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead_place_content {
+    margin-top: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {

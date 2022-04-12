@@ -1,4 +1,28 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  margin: 28px auto 0;
+  max-width: 1184px;
+}
+
+@media (max-width: 1279px) {
+  .header {
+      margin: 26px auto 0;
+      max-width: 928px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header {
+      margin: 28px auto 0;
+      max-width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+      margin: 16px auto 0;
+      max-width: 288px;
+  }
 }

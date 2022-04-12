@@ -12,3 +12,9 @@
     line-height: 26px;
   }
 }
+
+@media (max-width: 340px) {
+  .places__paragraph {
+    width: 288px;
+  }
+}
